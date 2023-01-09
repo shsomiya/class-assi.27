@@ -1,0 +1,177 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    ul,li{
+        margin: 0;
+        padding: 0;
+    }
+    .clearfix:after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .full-web{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    /* header */
+   
+    .header{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color:#22c3a3 ;
+        color: #ffffff;
+        padding:10px 20px ;
+    }
+
+    .manu ul{
+       text-align:right;
+    } 
+   
+    .manu ul li{
+        display:inline-block;
+        list-style: none;
+    }
+    
+    .manu ul li a{
+        display: inline-block;
+        text-decoration: none;
+        color: #ffffff;
+        padding:15px 10px ;
+    }
+    /* banner */
+        .banner{
+            background-image:url(./header-bg01.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center ;
+            background-attachment: fixed;
+            padding: 200px 0;
+            color: #ffffff;
+        }
+        h1{
+            font-size:70px ;
+            margin-bottom:10px ;
+        }
+        h4{
+            font-size:20px ;
+         
+        }
+        .div{
+            margin-top:30px ;
+        }
+        .div a{
+            text-decoration: none;
+            padding:10px ;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+        /* service */
+            .service{
+                border-bottom:1px solid #22c3a3  ;
+               
+                padding:90px 20px ;
+            }
+            .service h2,p{
+                color:#555555;
+                padding-bottom:30px ;
+
+            }
+            .service h2{
+                font-size:30px ;
+            }
+            .icon{
+                display:flex;
+                justify-content: space-between;
+                padding:70px 20px ;
+            
+            }
+            .icon h3,p {
+                font-size:20px;
+                color: #555555;
+                padding-bottom:10px ;
+                padding-top:10px ;
+            }
+            i{
+                font-size:50px ;
+                color:#0dbf9b ;
+                padding-bottom:10px ;
+            }
+            /* about */
+            .about{
+                color: #555555;
+                margin-top:20px ;
+                width:100% ;
+                margin-bottom: 30px;
+            
+                padding:100px 30px 100px 30px ;
+
+            }
+            .img{
+               float:left ;
+               width: 50% ; 
+               padding-top:40px ;    
+            }
+            .we{
+               float:right ;
+               width:50% ;
+               text-align: justify;  
+               padding-top:40px ; 
+            }
+            h5{
+                padding-top:10px ;
+                }
+                /* contact */
+                .contact{
+                    background-color: #f6f6f6;
+                    margin-top:320px ;
+                    width:100% ;
+                 
+                    padding:105px 30px ;
+                    color: #555555;
+
+                }
+                .contact ul{
+                    text-align: center;
+                    padding-top:50px ;
+                    
+                }
+                .contact ul li{
+                    display: inline-block;
+                    list-style: none;
+
+
+                }
+                .contact ul li a{
+                    display: inline-block;
+                    text-decoration: none;
+                    margin-left:100px ;
+                    color: #555555;
+                    
+                }
+                .contact i{
+                    font-size:20px;
+                }
+                .footer{
+                    background-color: #22c3a3;
+                    padding:20px ;
+                    
+                }
+                .footer i{
+                    color: #ffffff;
+                    font-size:20px ;
+                    margin-left:10px;
+                }
+                .footer-buttom{
+                    background-color: black;
+                    text-align: center;
+                    color: #555555;
+                    padding:10px ;
+                }
+
+
+
